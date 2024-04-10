@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>TK Photography</title>
+</head>
+
+<body>
+    <header>
+        <h1>TK Photography</h1>
+        <nav>
+            <h2 class="hidden">Main Navigation</h2>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#form">Contact</a></li>
+                <li><a href="#top">Top</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" class="main">
+            <h2>About</h2>
+            <p>Hello!</p>
+            <p>I’m TK and I’m a photographer. I love looking at life through the lens of my camera. Landscape photography is my specialty and it’s taken 
+            me all over the world.</p>
+        </section>
+
+        <section id="gallery" class="main">
+            <h2>Gallery</h2>
+            <p>Here are some highlights of my work. The locations and year are in the caption.</p>
+            <div class="image-container">
+                <figure>
+                    <img src="images/Chile.png" alt="beach with large rocks partially surrounded by waves" width="420" height="282">
+                    <figcaption>Chile, 2001</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/Guatemala.png" alt="bright purple flowers in front of a lake, mountains in background, with a bright purple, orange, and pink sunrise" width="420" height="280">
+                    <figcaption class="top">Guatemala, 1997</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/Hawaii.png" alt="lush green mountains surrounded by bright blue ocean water" width="421" height="281">
+                    <figcaption>Hawaii, 2010</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/Iran.png" alt="flat desert, with red shrubs, and mountains in the background" width="420" height="630">
+                    <figcaption class="top">Iran, 1999</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/Ireland.png" alt="lush green rolling hills" width="420" height="630">
+                    <figcaption class="top">Ireland, 2012</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/Italy.png" alt="blue alpine lake surrounded by mountains and trees" width="420" height="630">
+                    <figcaption>Italy, 2015</figcaption>
+                </figure>
+
+                <figure id="moab">
+                    <img src="images/Moab-Desert.png" alt="Desert canyon with a bright sunrise" width="420" height="281">
+                    <figcaption>Moab Desert, 2020</figcaption>
+                </figure>
+
+                <figure id="rocky">
+                    <img src="images/Rocky-Mountains.png" alt="large rock formations with boulders around them, surrounded by water" width="420" height="281">
+                    <figcaption class="top">Rocky Mountains, 2009</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/Switzerland.png" alt="snowy mountain range with tall green trees in the forefront" width="420" height="280">
+                    <figcaption>Switzerland, 2014</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/UK.png" alt="lush green mountain valley at dusk" width="420" height="281">
+                    <figcaption>UK, 2005</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/USA.png" alt="flower field with yellow and red flowers, a treeline in the distance, and a cloudy sky" width="420" height="280">
+                    <figcaption>USA, 2021</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/Wyoming.png" alt="lake with a treeline behind it and a mountain range in the distance" width="420" height="280">
+                    <figcaption>Wyoming, 2021</figcaption>
+                </figure>
+            </div>
+        </section>
+    
+        <section id="form" class="main">
+            <p class="hidden">Your contact information</p>
+            <form action="https://wp.zybooks.com/form-viewer.php" method="post" target="blank">
+                <h2>Contact</h2>
+                <p>Please fill out this form and I’ll connect with you soon.</p>
+                
+                <label for="fullname">Name</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Your full name" required><br>
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address" required><br>
+                
+                <label id="message" for="message">Message</label>
+                <textarea id="message" name="message" placeholder="What can I help you with?" required></textarea><br>
+                
+                <input type="submit" id="submit" name="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <small>Copyright 2021 TK Photography</small>
+    </footer>
+</body>

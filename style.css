@@ -366,8 +366,7 @@ footer {
     }
 
     nav ul {
-        justify-content: right; 
-        align-items: right;
+        justify-content: flex-end; 
         margin-right: 100px;
     }
 
